@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~>4.1.1'
 gem 'paperclip', '~> 4.2'
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '< 2.0' 
 gem 'masonry-rails', '~> 0.2.0'
 
 
@@ -43,6 +43,7 @@ end
 
 group :production do
 	gem 'pg'
+	gem 'aws-sdk', '< 2.0' 
 end
 
 
